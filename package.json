@@ -1,0 +1,26 @@
+{
+  "name": "horseman-api",
+  "version": "0.0.1",
+  "description": "Wrapper around the horseman REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test jasmine"
+  },
+  "repository": {
+    "url": "https://github.com/dylanjha/horseman-api",
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "Dylan Jhaveri",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.7.0",
+    "standard": "^10.0.3"
+  }
+}
