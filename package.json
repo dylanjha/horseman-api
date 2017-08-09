@@ -2,7 +2,7 @@
   "name": "horseman-api",
   "version": "0.0.1",
   "description": "Wrapper around the horseman REST API",
-  "main": "index.js",
+  "main": "horseman.js",
   "scripts": {
     "test": "standard && NODE_ENV=test jasmine"
   },
