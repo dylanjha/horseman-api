@@ -38,6 +38,17 @@ describe('job', function () {
     })
   })
 
+  describe('getArchive', function () {
+    it('should make the correct request and return a promise', function (done) {
+      job.getArchive('xxx-job-id', 'xxx-access-token').then((resp) => {
+        const lastReq = client.LAST_REQUEST
+        expect(lastReq.method).toEqual('GET')
+        expect(lastReq.url).toEqual(baseEndpoint + '/xxx-job-id/download?token=xxx-access-token')
+        done()
+      }).catch(done.fail)
+    })
+  })
+
   describe('destroy', function () {
     it('should make the correct request and return a promise', function (done) {
       job.destroy('xxx-job-id', 'xxx-access-token').then((resp) => {

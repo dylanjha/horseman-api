@@ -31,7 +31,6 @@ describe('Client', () => {
     it('should load the available resources', () => {
       const client = new Client({})
       expect(client.job).not.toBeUndefined()
-      expect(client.archive).not.toBeUndefined()
     })
   })
 })
