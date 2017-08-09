@@ -14,7 +14,7 @@ describe('Client', () => {
       const client = new Client({})
       expect(client.requestHeaders()).toEqual({
         'User-Agent': `horseman-api node ${client.version}`,
-        'Content-Type': 'application/vnd.api+json',
+        'Content-Type': 'application/json',
         'Accept': '*/*'
       })
     })
