@@ -8,7 +8,7 @@ yarn:
 
 ```
 yarn add horseman-api
-``
+```
 
 npm:
 
