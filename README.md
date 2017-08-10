@@ -1,5 +1,22 @@
 # Horseman Api
 
+## Installation
+
+yarn:
+
+```
+yarn add horseman-api
+``
+
+npm:
+
+```
+npm install horseman-api --save
+``
+
+
+## Usage
+
 ```javascript
 const horseman = require('horseman')()
 
