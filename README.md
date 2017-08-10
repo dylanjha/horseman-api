@@ -1,5 +1,7 @@
 # Horseman Api
 
+[![Build Status](https://travis-ci.org/dylanjha/horseman-api.svg?branch=master)](https://travis-ci.org/dylanjha/horseman-api)
+
 ## Installation
 
 yarn:
@@ -12,7 +14,7 @@ npm:
 
 ```
 npm install horseman-api --save
-``
+```
 
 
 ## Usage
