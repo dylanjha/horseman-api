@@ -2,8 +2,8 @@
 
 'use strict'
 
-const clientSpy = require('../support/client_spy')
-const Job = require('../../lib/resources/job')
+const clientSpy = require('../../support/client_spy')
+const Job = require('../../../lib/resources/job')
 
 describe('job', function () {
   const client = clientSpy({})
