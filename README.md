@@ -31,3 +31,11 @@ horseman.job.destroy('<job-id>', '<access-token>').then(console.log).catch(conso
 // get the job archive
 horseman.job.getArchive('<job-id>', '<access-token>').then(console.log).catch(console.error)
 ```
+## Debugging
+
+This library uses the [debug package](https://www.npmjs.com/package/debug) standard for optional logger output. To see logger output from this library set DEBUG env variable to 'horseman-api'. For example to see log output in tests:
+
+```
+DEBUG=horseman-api* yarn test
+```
+
