@@ -8,7 +8,7 @@ const Job = require('../../../lib/resources/job')
 describe('job', function () {
   const client = clientSpy({})
   const job = new Job(client)
-  const baseEndpoint = 'https://kennel.wobbals.com/horseman/job'
+  const baseEndpoint = 'https://archive.tokbox.com/horseman/job'
 
   describe('create', function () {
     it('should make the correct request and return a promise', function (done) {

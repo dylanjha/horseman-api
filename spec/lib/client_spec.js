@@ -23,7 +23,7 @@ describe('Client', () => {
   describe('urlBase', () => {
     it('should point to the expected host', () => {
       const client = new Client({})
-      expect(client.urlBase()).toEqual('https://archive.tokbox.com')
+      expect(client.urlBase()).toEqual('https://archive.tokbox.com/horseman')
     })
   })
 
